@@ -14,7 +14,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'af3a7a44-5558-4d04-bbe0-0330553fa947'
   imageRepository: 'workerapp'
-  containerRegistry: 'rvzurecicid.azurecr.io'
+  containerRegistry: 'your_own_conatiner_registery_from_azure.azurecr.io' #replace your_own_conatiner_registery_from_azure with your azure conatiner registry taht you have created.
   dockerfilePath: '$(Build.SourcesDirectory)/result/Dockerfile'
   tag: '$(Build.BuildId)'
 
